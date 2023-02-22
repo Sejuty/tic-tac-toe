@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>TIC-TAC-TOE</title>
+  </head>
+  <body>
+    <body
+      class="font-extrabold font-cursive flex min-h-screen justify-center items-center flex-col text-center transition-all duration-[0.2s] ease-[ease-in]"
+    >
+      <h1 class="game--title">Tic Tac Toe</h1>
+      <div
+        class="p-2.5 rounded-[30px] border-[10px] border-solid border-[black] bg-blue-100"
+      >
+        <div class="game--container grid grid-cols-[repeat(3,auto)] w-[306px]">
+          <div
+            data-cell-index="0"
+            class="cell rounded-[10px] border-r-[10px] border-r-[black] border-b-[10px] border-b-[black] border-solid w-[100px] h-[100px] cursor-pointer leading-[100px] text-6xl cursor-pointer transition-all duration-[0.2s] ease-[ease-in]"
+          ></div>
+          <div
+            data-cell-index="1"
+            class="cell rounded-[10px] border-b-[10px] border-b-[black] border-solid w-[100px] h-[100px] cursor-pointer leading-[100px] text-6xl cursor-pointer transition-all duration-[0.1s] ease-[ease-in]"
+          ></div>
+          <div
+            data-cell-index="2"
+            class="cell rounded-[10px] border-l-[10px] border-l-[black] border-b-[10px] border-b-[black] border-solid w-[100px] h-[100px] cursor-pointer leading-[100px] text-6xl cursor-pointer transition-all duration-[0.1s] ease-[ease-in]"
+          ></div>
+          <div
+            data-cell-index="3"
+            class="cell rounded-[10px] border-r-[10px] border-r-[black] border-solid w-[100px] h-[100px] cursor-pointer leading-[100px] text-6xl cursor-pointer transition-all duration-[0.1s] ease-[ease-in]"
+          ></div>
+          <div
+            data-cell-index="4"
+            class="cell w-[100px] h-[100px] cursor-pointer leading-[100px] text-6xl cursor-pointer transition-all duration-[0.1s] ease-[ease-in]"
+          ></div>
+          <div
+            data-cell-index="5"
+            class="cell rounded-[10px] border-l-[10px] border-l-[black] border-solid w-[100px] h-[100px] cursor-pointer leading-[100px] text-6xl cursor-pointer transition-all duration-[0.1s] ease-[ease-in]"
+          ></div>
+          <div
+            data-cell-index="6"
+            class="cell rounded-[10px] border-r-[10px] border-r-[black] border-t-[10px] border-t-[black] border-solid w-[100px] h-[100px] cursor-pointer leading-[100px] text-6xl cursor-pointer transition-all duration-[0.1s] ease-[ease-in]"
+          ></div>
+          <div
+            data-cell-index="7"
+            class="cell rounded-[10px] border-t-[10px] border-t-[black] border-solid w-[100px] h-[100px] cursor-pointer leading-[100px] text-6xl cursor-pointer transition-all duration-[0.1s] ease-[ease-in]"
+          ></div>
+          <div
+            data-cell-index="8"
+            class="cell rounded-[10px] border-l-[10px] border-l-[black] border-t-[10px] border-t-[black] border-solid w-[100px] h-[100px] cursor-pointer leading-[100px] text-6xl cursor-pointer transition-all duration-[0.1s] ease-[ease-in]"
+          ></div>
+        </div>
+      </div>
+      <h2 class="game--status"></h2>
+      <button class="game--restart">Restart Game</button>
+      <script src="app.js"></script>
+    </body>
+  </body>
+</html>
