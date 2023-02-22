@@ -1,3 +1,3 @@
 # tic-tac-toe
 
-## play [Click here to play](https://sejuty.github.io/tic-tac-toe/)
+### To Play [Click](https://sejuty.github.io/tic-tac-toe/) Here
